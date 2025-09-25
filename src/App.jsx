@@ -11,7 +11,7 @@ export default function App(){
     }, [dispatch]);
     return(
          <div style={{ maxWidth: "500px", margin: "0 auto", padding: "1rem" }}>
-      <h1>Todo App (Redux-Saga)</h1>
+      <h1>Todo App</h1>
       <TodoForm />
       <TodoList />
     </div>
